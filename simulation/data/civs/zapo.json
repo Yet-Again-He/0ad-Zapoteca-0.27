@@ -1,0 +1,76 @@
+{
+	"Code": "zapo",
+	"Culture": "meso",
+	"Music": [
+		{
+			"File": "Jaws_of_the_Jaguar.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Along_the_Nile.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Lost_World.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forgotten_Tribe.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cloud_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Old_New_World.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Traditional Tactics",
+			"History": "Zapotec warriors favored melee and did not equip themselves for ranged combat, as such warriors would wear little to no armor and be swift on the battlefield lest they be shot down.",
+			"Description": "10% reduction in protection from arrows, 10% increase in melee damage, and a 50% increase in walking speed."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/zapo/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/zapo/civil_centre"
+		},
+		{
+			"Template": "units/zapo/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/zapo/infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/zapo/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/zapo/infantry_scout",
+			"Count": 1
+		}
+	],
+	"AINames": [
+		"Ozomatli",
+		"Huijatoo",
+		"Zaachila",
+		"Cosijoeza",
+		"Cocijopij"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/zapo/infantry_scout",
+		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}
