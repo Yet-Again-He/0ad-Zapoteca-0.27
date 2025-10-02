@@ -6,20 +6,9 @@
 		"civ": "zapo"
 	},
 	"modifications": [
-		{
-			"value": "Armour/Pierce",
-			"add": -1.0
-		},
-		{
-			"value": "Attack/Melee/Damage/Hack",
-			"add": 1.0
-		},
-		{
-			"value": "UnitMotion/WalkSpeed",
-			"add": 1.5
-		}
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": -1 },
+		{ "value": "Attack/Melee/Damage/Hack", "add": 1 },
+		{ "value": "UnitMotion/WalkSpeed", "add": 1.5 }
 	],
-	"affects": [
-		"Melee"
-	]
+	"affects": ["Melee"]
 }

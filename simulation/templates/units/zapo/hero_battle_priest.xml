@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_healer">
   <Auras datatype="tokens">
-    units/heroes/zapo_priest
+    units/heroes/zapo_hero_priest
   </Auras>
   <Heal>
     <Range>30</Range>
