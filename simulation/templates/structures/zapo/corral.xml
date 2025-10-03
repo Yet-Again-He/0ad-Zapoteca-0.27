@@ -14,8 +14,18 @@
   <Obstruction>
     <Static width="16.0" depth="10.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      zapotecs/gather_animal_diet
+    </Technologies>
+  </Researcher>
   <Trainer>
-	<Entities datatype="tokens"> gaia/fauna_turkey_trainable </Entities>
+	  <Entities datatype="tokens">
+      gaia/fauna_turkey_trainable
+      -gaia/fauna_goat_trainable
+      -gaia/fauna_sheep_trainable
+      -gaia/fauna_cattle_cow_trainable
+    </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/corral.xml</Actor>
