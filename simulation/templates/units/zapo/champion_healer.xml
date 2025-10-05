@@ -17,6 +17,9 @@
     <SelectionGroupName>units/zapo/champion_healer</SelectionGroupName>
     <Icon>units/zapo/zapo_champion_healer.png</Icon>
     <Rank>Elite</Rank>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Promotion disable=""/>
   <Health>

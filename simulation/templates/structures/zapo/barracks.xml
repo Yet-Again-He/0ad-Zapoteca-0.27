@@ -14,6 +14,16 @@
   <Obstruction>
     <Static width="21.0" depth="21.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_javelineer_b
+      -units/{civ}/infantry_slinger_b
+      -units/{civ}/infantry_archer_b
+      units/zapo/otomi_infantry
+      units/zapo/mixtec_infantry
+      champion_infantry_sword
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/barracks.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

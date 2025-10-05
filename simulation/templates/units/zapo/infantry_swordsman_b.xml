@@ -5,6 +5,9 @@
       <AttackName>Macuahuitl</AttackName>
     </Melee>
   </Attack>
+  <Builder>
+    <Entities datatype="tokens"> structures/zapo/ball_court structures/zapo/palace structures/zapo/range</Entities>
+  </Builder>
   <Identity>
     <Civ>zapo</Civ>
     <SelectionGroupName>units/zapo/infantry_swordsman_b</SelectionGroupName>

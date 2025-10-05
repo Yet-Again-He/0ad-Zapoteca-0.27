@@ -27,7 +27,7 @@
 	  Palace
 	</VisibleClasses>
     <Icon>structures/stoa.png</Icon>
-    <Tooltip>Train Champion Priests and Heroes. Territory Root.</Tooltip>
+    <Tooltip>Train Heroes and Champion Sword/Archer Dualists. Territory Root.</Tooltip>
   </Identity>
   <Loot>
     <stone>80</stone>
