@@ -16,7 +16,7 @@
   </Obstruction>
     <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens"> units/{civ}/champion_healer 
+    <Entities datatype="tokens"> units/{civ}/champion_healer units/{civ}/hero_battle_priest
     </Entities>
   </Trainer>
   <VisualActor>
