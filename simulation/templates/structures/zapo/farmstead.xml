@@ -11,6 +11,11 @@
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      zapotecs/farming_water_management
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <FoundationActor>structures/fndn_3x4.xml</FoundationActor>
     <Actor>structures/zapotecs/farmstead.xml</Actor>

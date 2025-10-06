@@ -1,0 +1,23 @@
+{
+	"genericName": "Water Management",
+	"cost": {
+		"wood": 300,
+		"metal": 200
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" }, 
+			{ "civ": "zapo" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "alternating_fields.png",
+	"researchTime": 20,
+	"tooltip": "Corn Fields and Farmsteads +200% health, tricle +1 metal/second.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 3 },
+		{ "value": "ResourceTrickle/Rates/metal", "add": 1 }
+	],
+	"affects": ["Field"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
