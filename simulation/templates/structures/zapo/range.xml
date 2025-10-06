@@ -11,6 +11,11 @@
   <Obstruction>
     <Static width="26.0" depth="24.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/zapo/merc_infantry_3
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/range.xml</Actor>
   </VisualActor>
