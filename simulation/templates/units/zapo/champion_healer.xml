@@ -15,11 +15,12 @@
     <GenericName>Zapotec Battle Priest</GenericName>
     <SpecificName>Ba’ate’e K’iin</SpecificName>
     <SelectionGroupName>units/zapo/champion_healer</SelectionGroupName>
+    <Tooltip>Representatives of the gods, they inspire fear into their victims.</Tooltip>
     <Icon>units/zapo/zapo_champion_healer.png</Icon>
-    <Rank>Elite</Rank>
     <Requirements>
       <Techs datatype="tokens">phase_city</Techs>
     </Requirements>
+    <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <Health>
