@@ -1,0 +1,19 @@
+{
+	"genericName": "Leather Overshirts",
+	"description": "A decorative tunic worn over quilted armor and made with treated hides.",
+	"cost": {
+		"food": 600,
+		"stone": 600
+	},
+	"supersedes": "zapotecs/soldier_resistance_hack_zapo_02",
+	"requirements": {"tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_pteruges.png",
+	"researchTime": 60,
+	"tooltip": "Soldiers +2 hack resistance.",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 2 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

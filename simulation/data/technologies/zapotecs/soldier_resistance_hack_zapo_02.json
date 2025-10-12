@@ -2,11 +2,12 @@
 	"genericName": "Reinforced armor",
 	"description": "Body armor padded with cotton and salt.",
 	"cost": {
-		"food": 600,
-		"stone": 600
+		"food": 400,
+		"stone": 400
 	},
-	"requirements": {"tech": "phase_city" },
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "zapotecs/soldier_resistance_hack_zapo_01",
+	"requirements": {"tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "armor_pteruges.png",
 	"researchTime": 60,
 	"tooltip": "Soldiers +1 hack resistance.",

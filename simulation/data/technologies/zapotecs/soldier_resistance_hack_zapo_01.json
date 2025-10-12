@@ -2,8 +2,8 @@
 	"genericName": "Quilted Body Armor",
 	"description": "Body armor made of vegetable fibers and quilted cotton.",
 	"cost": {
-		"food": 400,
-		"wood": 400
+		"food": 200,
+		"wood": 200
 	},
 	"requirements": {"tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",

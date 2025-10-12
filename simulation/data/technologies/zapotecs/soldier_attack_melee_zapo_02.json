@@ -2,12 +2,22 @@
 	"genericName": "All Obsidian Blades",
 	"description": "Replace all blades on your weapons for good quality obsidian.",
 	"cost": {
-		"food": 900,
-		"stone": 600
+		"food": 700,
+		"stone": 500
 	},
-	"requirements": {"tech": "phase_city" },
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "sword_cross.png",
+	"supersedes": "zapotecs/soldier_attack_melee_zapo_01",
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{
+				"any": [
+					{ "civ": "zapo" }
+				]
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sword_02.png",
 	"researchTime": 60,
 	"tooltip": "Soldiers +15% melee attack damage.",
 	"modifications": [

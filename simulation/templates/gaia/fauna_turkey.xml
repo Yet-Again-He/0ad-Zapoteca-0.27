@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_herd_domestic">
+  <Auras datatype="tokens">
+    structures/corral_garrison_small
+  </Auras>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>15</BuildTime>
     <Resources>
-      <food>35</food>
+      <food>25</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -14,7 +17,7 @@
     <Max>25</Max>
   </Health>
   <Identity>
-    <GenericName>Trukey</GenericName>
+    <GenericName>Turkey</GenericName>
     <SpecificName>Huaxolotl</SpecificName>
     <Tooltip>Mesoamerican domestic bird.</Tooltip>
     <Icon>gaia/fauna_turkey.png</Icon>

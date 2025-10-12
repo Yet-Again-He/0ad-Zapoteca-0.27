@@ -4,12 +4,6 @@
     <Civ>zapo</Civ>
     <SpecificName>ch’ayal ch’ich’</SpecificName>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-	  obsidian_blades_melee
-	  obsidian_knife_melee
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/zapotecs/blacksmith.xml</Actor>
   </VisualActor>

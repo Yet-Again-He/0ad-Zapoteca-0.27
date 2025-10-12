@@ -4,6 +4,26 @@
     <Civ>zapo</Civ>
     <SpecificName>ch’ayal ch’ich’</SpecificName>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -soldier_attack_melee_01
+      -soldier_attack_melee_02
+      -soldier_attack_melee_03
+      -soldier_attack_ranged_02
+      -soldier_attack_ranged_03
+      -soldier_resistance_hack_01
+      -soldier_resistance_hack_02
+      -soldier_resistance_hack_03
+      zapotecs/soldier_attack_melee_zapo_01
+      zapotecs/soldier_attack_melee_zapo_02
+      zapotecs/soldier_attack_melee_zapo_03
+      zapotecs/soldier_attack_ranged_zapo_02
+      zapotecs/soldier_attack_ranged_zapo_03
+      zapotecs/soldier_resistance_hack_zapo_01
+      zapotecs/soldier_resistance_hack_zapo_02
+      zapotecs/soldier_resistance_hack_zapo_03
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/zapotecs/blacksmith.xml</Actor>
   </VisualActor>
