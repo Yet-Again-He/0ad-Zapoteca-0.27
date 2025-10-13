@@ -27,7 +27,7 @@
 	  Palace
 	</VisibleClasses>
     <Icon>structures/stoa.png</Icon>
-    <Tooltip>Train Heroes and Champion Sword/Archer Dualists. Territory Root.</Tooltip>
+    <Tooltip>Train Heroes and Noble Spearmen. Territory Root.</Tooltip>
   </Identity>
   <Loot>
     <stone>80</stone>
@@ -56,7 +56,7 @@
   </TerritoryInfluence>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens"> units/{civ}/champion_swordsman units/{civ}/champion_swordsman_archer units/{civ}/hero_lord_jaguar units/{civ}/hero_night_king units/{civ}/hero_rain_lord
+    <Entities datatype="tokens"> units/{civ}/champion_infantry_spearman units/zapo/hero_lord_jaguar units/zapo/hero_night_king units/zapo/hero_rain_lord
     </Entities>
   </Trainer>
   <Vision>

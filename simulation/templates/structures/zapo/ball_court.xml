@@ -58,7 +58,8 @@
   </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_spear
+      units/{civ}/champion_swordsman
+      units/{civ}/champion_swordsman_archer
     </Entities>
   </Trainer>
   <VisualActor>

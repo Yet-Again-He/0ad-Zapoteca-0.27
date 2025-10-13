@@ -1,13 +1,14 @@
 {
-	"genericName": "Lamellar shields",
-	"description": "Shields layered with multiple layers to add strength.",
+	"genericName": "Decorated shields",
+	"description": "Shields built with layers to support decorations for distinguishment and confusion of the eye.",
 	"cost": {
 		"wood": 600,
-		"stone": 600
+		"metal": 300
 	},
+	"supersedes": "zapotecs/soldier_resistance_pierce_zapo_02",
 	"requirements": {"tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "shields_generic_bronze.png",
+	"icon": "shield_parma.png",
 	"researchTime": 60,
 	"tooltip": "Soldiers +2 pierce resistance.",
 	"modifications": [

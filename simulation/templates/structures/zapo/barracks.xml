@@ -19,9 +19,9 @@
       -units/{civ}/infantry_javelineer_b
       -units/{civ}/infantry_slinger_b
       -units/{civ}/infantry_archer_b
+      -units/{civ}/champion_infantry_spearman
       units/zapo/otomi_infantry
       units/zapo/mixtec_infantry
-      champion_infantry_sword
     </Entities>
   </Trainer>
   <VisualActor>

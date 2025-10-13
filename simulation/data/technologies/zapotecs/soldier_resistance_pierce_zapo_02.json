@@ -2,11 +2,12 @@
 	"genericName": "Stronger shields",
 	"description": "Reinforced wooden shields.",
 	"cost": {
-		"wood": 600,
-		"stone": 600
+		"wood": 400,
+		"stone": 200
 	},
-	"requirements": {"tech": "phase_city" },
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "zapotecs/soldier_resistance_pierce_zapo_01",
+	"requirements": {"tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "shields_generic_bronze.png",
 	"researchTime": 60,
 	"tooltip": "Soldiers +1 pierce resistance.",
