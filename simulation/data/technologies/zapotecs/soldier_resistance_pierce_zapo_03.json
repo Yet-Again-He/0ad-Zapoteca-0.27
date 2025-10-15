@@ -2,8 +2,8 @@
 	"genericName": "Decorated shields",
 	"description": "Shields built with layers to support decorations for distinguishment and confusion of the eye.",
 	"cost": {
-		"wood": 600,
-		"metal": 300
+		"wood": 500,
+		"metal": 400
 	},
 	"supersedes": "zapotecs/soldier_resistance_pierce_zapo_02",
 	"requirements": {"tech": "phase_city" },

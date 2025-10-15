@@ -3,7 +3,7 @@
 	"description": "Body armor made of vegetable fibers and quilted cotton.",
 	"cost": {
 		"food": 200,
-		"wood": 200
+		"metal": 100
 	},
 	"requirements": {"tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",

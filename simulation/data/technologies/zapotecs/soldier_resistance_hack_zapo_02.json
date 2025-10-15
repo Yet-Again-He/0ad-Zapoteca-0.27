@@ -2,8 +2,8 @@
 	"genericName": "Reinforced armor",
 	"description": "Body armor padded with cotton and salt.",
 	"cost": {
-		"food": 400,
-		"stone": 400
+		"food": 350,
+		"metal": 250
 	},
 	"supersedes": "zapotecs/soldier_resistance_hack_zapo_01",
 	"requirements": {"tech": "phase_town" },

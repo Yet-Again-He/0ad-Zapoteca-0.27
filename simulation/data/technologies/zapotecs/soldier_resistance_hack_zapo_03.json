@@ -2,8 +2,8 @@
 	"genericName": "Leather Overshirts",
 	"description": "A decorative tunic worn over quilted armor and made with treated hides.",
 	"cost": {
-		"food": 600,
-		"stone": 600
+		"food": 500,
+		"metal": 400
 	},
 	"supersedes": "zapotecs/soldier_resistance_hack_zapo_02",
 	"requirements": {"tech": "phase_city" },

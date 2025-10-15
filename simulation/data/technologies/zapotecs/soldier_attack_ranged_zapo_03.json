@@ -2,8 +2,8 @@
 	"genericName": "Green Obsidian Arrowheads",
 	"description": "Arrowheads with barbs designed to inflict messy wounds.",
 	"cost": {
-		"wood": 900,
-		"stone": 600
+		"wood": 500,
+		"metal": 400
 	},
 	"supersedes": "zapotecs/soldier_attack_ranged_zapo_02",
 	"requirements": {"tech": "phase_city"},
